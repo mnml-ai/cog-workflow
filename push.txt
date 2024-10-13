@@ -1,0 +1,14 @@
+
+
+git clone https://github.com/mnml-ai/cog-workflow.git
+cd cog-workflow
+
+
+
+sudo curl -o /usr/local/bin/cog -L https://github.com/replicate/cog/releases/latest/download/cog_`uname -s`_`uname -m`
+sudo chmod +x /usr/local/bin/cog
+
+
+sudo cog login
+
+sudo cog push r8.im/mnml-ai/cog-workflow
